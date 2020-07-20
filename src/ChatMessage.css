@@ -1,0 +1,29 @@
+.chat-message {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.chat-message > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 38px;
+}
+
+.chat-ul { 
+    list-style: none;
+    padding-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.chat-box {
+    background-color: rgb(240, 240, 240);
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
