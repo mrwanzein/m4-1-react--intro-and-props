@@ -17,13 +17,28 @@
 }
 
 .username {
-    font-weight: bold;
+    color: rgb(156, 156, 156);
 }
 
 .chat-box {
-    background-color: rgb(240, 240, 240);
+    background-color: #e9e9eb;
     padding: 12px;
     border-radius: 15px;
     margin-top: 10px;
     font-weight: bold;
+    color: #000;
+}
+
+.align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sent {
+    background-color: #1185f7;
+    color: #FFF;
+    padding: 12px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
