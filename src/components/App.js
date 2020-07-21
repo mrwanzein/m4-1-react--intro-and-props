@@ -9,7 +9,7 @@ import './App.css';
 const App = (props) => {
   return (
     <div className='wrapper'>
-      <Header />
+      <Header listOfUsers={props.conversation.participants} currentUser={props.currentUser}/>
       <ChatStream messages={props.conversation.messages} currentUser={props.currentUser} />
       <Footer />
     </div>
